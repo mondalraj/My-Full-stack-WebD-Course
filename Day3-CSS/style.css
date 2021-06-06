@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container1, .container2, .container3 {
+    width: 500px;
+    border: 1px solid black;
+    /* margin: top-bottom right-left */
+    margin: 10px auto;
+    /* margin: top right bottom left */
+    /* margin: 20px 50px 20px 50px ; */
+    padding: 10px 20px 10px 20px;
+}
+
+.container1 {
+    float: left;
+    clear: left;
+    background-color: yellow;
+    margin-left: 200px;
+    
+}
+
+.container2 {
+    float: right;
+    clear: right;
+    background-color: pink;
+    margin-right: 200px;
+}
+
+.container3 {
+    clear: both;
+    background-color: rgb(118, 241, 118)
+}
+
+h1 {
+    color: blue;
+    font-size: 36px;
+}
+
+h2{
+    padding: 20px 10px;
+    /* border: 1px solid blue; */
+}
+
+.link {
+    padding: 5px 10px;
+    margin: 10px 0;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.title {
+    color: red;
+}

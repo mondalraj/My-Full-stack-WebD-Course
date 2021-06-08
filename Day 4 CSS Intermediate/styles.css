@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Custom Properties and variables */
+
+:root{
+    --flex-div1-back : rgb(137, 137, 255);
+    --flex-div2-back : rgb(130, 255, 130);
+    --flex-div3-back : pink;
+    --text-size : 22px;
+}
+
+/* 
+Flexbox ->
+<parent>
+flex-direction
+justify content
+align items
+flex-wrap
+
+<child>
+*/
+
+
+
+.container {
+  /* background-color: aqua; */
+  display: flex;
+  width: 100vw;
+  /* height: 100vh; */
+  margin: 0 auto;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* align-items: flex-end; */
+  /* float: left;
+  margin-left: 500px; */
+  flex-wrap: wrap;
+  background-color: #333;
+}
+
+.card {
+  background-color: cyan;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+
+
+.card-2, .card-4{
+    /* background-color: blue; */
+    background-color: var(--flex-div1-back) ;
+}
+
+.card-7, .card-9{
+    background-color: var(--flex-div2-back);
+}
+
+.card-1, .card-10{
+    font-size: var(--text-size);
+}

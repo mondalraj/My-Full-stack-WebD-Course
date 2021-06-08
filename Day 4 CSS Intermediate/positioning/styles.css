@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+/* 
+position property =>
+
+relative
+absolute
+sticky
+fixed 
+*/
+
+
+.container{
+    display: flex;
+    height: 2000px;
+}
+
+.card{
+    background-color: rgb(255, 154, 154);
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.card-3{
+    /* position: relative; */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* .card-1{
+    position:sticky;
+    top:10px;
+} */
+
+.card-2{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: aqua;
+}
+
+.card-4{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: rgb(82, 214, 93);
+}

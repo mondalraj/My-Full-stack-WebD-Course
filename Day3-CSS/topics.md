@@ -8,4 +8,5 @@ Colors in CSS
 Borders and Background  
 Box-model, margin and padding  
 Float and Clear  
-Styling links and buttons
+Styling links and buttons  
+CSS Display Property - inline, block, inline-block

@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(166, 255, 255);
+}
+
+/*
+li:nth-child(2n){
+    //n-> 1,2,3..
+    background-color: yellow;
+}
+*/
+
+.card-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(255, 61, 94);
+  margin: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 830px) {
+  body {
+    background-color: yellow;
+  }
+
+  .card {
+    width: 700px;
+    height: 500px;
+  }
+}

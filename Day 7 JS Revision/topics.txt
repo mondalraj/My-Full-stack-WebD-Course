@@ -1,0 +1,9 @@
+In this tutorial we will learn about => 
+
+Hello World in JS
+datatypes -> var, let, const
+variables -> string, number, boolean, array, object
+JS template Literals
+JS Operators -> + - * / % > < >= <= == ===
+if-else conditional (program ex)
+Math.round()

@@ -43,4 +43,3 @@ Math.round()
 JS template Literals  
 Functions   
 Closures -> var, let  
-Creating a responsive nav-bar using only HTML and CSS  

@@ -1,0 +1,25 @@
+.grand-parent {
+  width: 400px;
+  height: auto;
+  min-height: 100px;
+  background-color: brown;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.grand-parent > .parents {
+  width: 90%;
+  height: 150px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.grand-parent > .parents > .child {
+  height: 100px;
+  width: 150px;
+  background-color: blueviolet;
+}

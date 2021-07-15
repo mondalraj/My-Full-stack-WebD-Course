@@ -1,0 +1,16 @@
+In this tutorial we will learn about ->
+
+var_name.style.style_property = "value"
+Array Iteration forEach method
+
+
+Traverse through HTML using DOM :
+getElementById()
+getElementByClassName("")
+querySelector("")
+querySelectorAll("")
+Selecting Children
+Selecting descendants
+Selecting parents
+Selecting ancestors
+Selecting Siblings

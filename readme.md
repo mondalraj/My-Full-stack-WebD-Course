@@ -42,6 +42,7 @@ Math.round()
 JS template Literals  
 Functions  
 Closures -> var, let  
+<<<<<<< HEAD
 Creating a responsive nav-bar using only HTML and CSS  
 var_name.style.style_property = "value"
 Array Iteration forEach method
@@ -56,3 +57,5 @@ Selecting descendants
 Selecting parents
 Selecting ancestors
 Selecting Siblings
+=======
+>>>>>>> f622cc823cf9bf6df28645f92ba60dcf2396d42c

@@ -1,0 +1,5 @@
+DOM Manipulation ->
+1. Adding elements
+2. Creating elements
+3. Modifying element text
+4. Modifying element classes

@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(236, 93, 93);
+    border-radius: 10px;
+}
+
+.active{
+    width: 200px;
+}
